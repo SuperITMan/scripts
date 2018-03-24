@@ -1,0 +1,14 @@
+#################################################
+#####                Aliases                #####
+#################################################
+
+alias gs="git status"
+alias gitlog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gad='git add'
+alias gl='gitlog'
+alias gitlogv='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'    # visualize git log
+alias glv='gitlogv'
+alias gc='git clone'
+alias gitsearch='git rev-list --all | xargs git grep -F'
+
+alias npp="notepadplusplus"

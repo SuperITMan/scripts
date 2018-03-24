@@ -1,0 +1,3 @@
+if [ -z ${basePath+x} ]; then export basePath=""; fi
+
+notepadplusplus="$basePath/d/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"
