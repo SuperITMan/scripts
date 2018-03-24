@@ -1,3 +1,9 @@
 if [ -z ${basePath+x} ]; then export basePath=""; fi
 
-notepadplusplus="$basePath/d/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"
+PROGRAM_FILES_C="$basePath/c/Program\ Files"
+PROGRAM_FILES_X86_C="$basePath/c/Program\ Files\ \(x86\)"
+PROGRAM_FILES_D="$basePath/d/Program\ Files\"
+PROGRAM_FILES_X86_D="$basePath/d/Program\ Files\ \(x86\)"
+
+notepadplusplus="$PROGRAM_FILES_D/Notepad++/notepad++.exe"
+
