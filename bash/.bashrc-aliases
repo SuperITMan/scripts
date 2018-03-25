@@ -12,3 +12,4 @@ alias gc='git clone'
 alias gitsearch='git rev-list --all | xargs git grep -F'
 
 alias npp="notepadplusplus"
+alias ij="intellij"

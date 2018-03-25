@@ -1,0 +1,10 @@
+if [ -z ${basePath+x} ]; then export basePath=""; fi
+
+export PROGRAM_FILES_C="$basePath/c/Program\ Files"
+export PROGRAM_FILES_X86_C="$basePath/c/Program\ Files\ \(x86\)"
+export PROGRAM_FILES_D="$basePath/d/Program\ Files"
+export PROGRAM_FILES_X86_D="$basePath/d/Program\ Files\ \(x86\)"
+
+notepadplusplus="$PROGRAM_FILES_C/Notepad++/notepad++.exe"
+intellij="$PROGRAM_FILES_C/JetBrains/IntelliJ\ IDEA\ 2017.3.1/bin/idea64.exe"
+
